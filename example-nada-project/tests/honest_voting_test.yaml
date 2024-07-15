@@ -1,0 +1,20 @@
+---
+program: honest_voting
+inputs:
+  v1_c0:
+    SecretInteger: "3"
+  v0_c0:
+    SecretInteger: "3"
+  v2_c0:
+    SecretInteger: "3"
+  v1_c1:
+    SecretInteger: "3"
+  v2_c1:
+    SecretInteger: "3"
+  v0_c1:
+    SecretInteger: "3"
+expected_outputs:
+  final_vote_count_c0:
+    SecretInteger: "9"
+  final_vote_count_c1:
+    SecretInteger: "9"

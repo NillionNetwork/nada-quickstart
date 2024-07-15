@@ -1,0 +1,27 @@
+name = "example-nada-project"
+version = "0.1.0"
+authors = [""]
+
+[[programs]]
+path = "src/chi_squared.py"
+prime_size = 128
+
+[[programs]]
+path = "src/dot_product.py"
+prime_size = 128
+
+[[programs]]
+path = "src/honest_voting.py"
+prime_size = 128
+
+[[programs]]
+path = "src/matrix_multiplication.py"
+prime_size = 128
+
+[[programs]]
+path = "src/millionaires_problem.py"
+prime_size = 128
+
+[[programs]]
+path = "src/work_with_rationals.py"
+prime_size = 128

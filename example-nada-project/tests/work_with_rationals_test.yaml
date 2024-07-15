@@ -1,0 +1,10 @@
+---
+program: work_with_rationals
+inputs:
+  my_input_1:
+    SecretInteger: "3"
+  my_input_0:
+    SecretInteger: "3"
+expected_outputs:
+  my_output_0:
+    SecretInteger: "3"

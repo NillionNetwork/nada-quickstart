@@ -1,0 +1,18 @@
+---
+program: chi_squared
+inputs:
+  n1:
+    SecretInteger: "3"
+  n2:
+    SecretInteger: "3"
+  n0:
+    SecretInteger: "3"
+expected_outputs:
+  beta_3:
+    SecretInteger: "81"
+  beta_2:
+    SecretInteger: "729"
+  alpha:
+    SecretInteger: "162"
+  beta_1:
+    SecretInteger: "162"
